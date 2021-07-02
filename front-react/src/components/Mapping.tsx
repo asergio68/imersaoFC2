@@ -1,7 +1,5 @@
 // @flow
 
-// chave do googles api: AIzaSyCZgGfk1P-FfZeXOGie7T6jbR-XiqYkmuo
-
 import { Button, MenuItem, Select } from "@material-ui/core";
 import { FormEvent, useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
