@@ -1,0 +1,29 @@
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "title": "3a rota",
+    "startPosition": {"lat": 2,"lng": 2}, 
+    "endPosition": {"lat": 3, "lng": 3}
+}
+
+###
+GET http://localhost:3000/routes
+
+###
+GET http://localhost:3000/routes/start/3
+
+###
+GET http://localhost:3000/routes/607cc6624834d40201968c11
+
+###
+PATCH http://localhost:3000/routes/607cc6624834d40201968c11
+Content-Type: application/json
+
+{
+    "title": "terceira rota",
+    "endPosition": {"lat": 34, "lng":3}
+}
+
+###
+DELETE http://localhost:3000/routes/607cc6624834d40201968c11

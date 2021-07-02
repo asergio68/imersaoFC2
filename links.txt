@@ -1,0 +1,9 @@
+MongoDB
+http://localhost:8081/db/nest/routes
+
+GitHub
+https://github.com/codeedu
+
+Kafka Control Center
+http://localhost:9021/clusters/5bmfTYLbQweFMjs3Hp1B-g/overview
+
